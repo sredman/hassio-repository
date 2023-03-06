@@ -16,7 +16,7 @@ This repository was created for:
 
 If you are more interested in stable releases of my add-ons:
 
-<https://github.com/miguelangel-nubla/hassio-repository>
+<{{ repo | regex_replace('-' ~ channel ~ '$', '') }}>
 
 {% endif %}
 {% if channel == "beta" %}
@@ -34,7 +34,7 @@ This repository was created for:
 
 If you are more interested in stable releases of my add-ons:
 
-<https://github.com/miguelangel-nubla/hassio-repository>
+<{{ repo | regex_replace('-' ~ channel ~ '$', '') }}>
 
 {% endif %}
 # miguelangel-nubla Home Assistant Add-ons
