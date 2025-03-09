@@ -1,7 +1,7 @@
 ---
 # Project information
-site_name: "miguelangel-nubla Home Assistant Add-ons"
-site_url: "https://github.com/miguelangel-nubla/hassio-repository"
+site_name: "sredman Home Assistant Add-ons"
+site_url: "https://github.com/sredman/hassio-repository"
 site_description: ""
 site_author: "Miguel Angel Nubla"
 copyright: "Copyright 2023 - Miguel Angel Nubla.Copyright 2017-2020 - Franck Nijhof."
@@ -32,7 +32,7 @@ extra:
   manifest: "manifest.webmanifest"
   social:
     - icon: fontawesome/brands/github-alt
-      link: "https://github.com/miguelangel-nubla/hassio-repository"
+      link: "https://github.com/sredman/hassio-repository"
 
 # Extensions
 markdown_extensions:

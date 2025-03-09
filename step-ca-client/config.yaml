@@ -8,7 +8,7 @@ auth_api: true
 description: SSL/TLS certificates from your own PKI
 hassio_api: true
 hassio_role: manager
-image: ghcr.io/miguelangel-nubla/step-ca-client/{arch}
+image: ghcr.io/sredman/step-ca-client/{arch}
 init: false
 map:
 - ssl:rw
@@ -42,5 +42,5 @@ schema:
   - str
   token: password
 slug: step-ca-client
-url: https://github.com/miguelangel-nubla/step-ca-client
+url: https://github.com/sredman/step-ca-client
 version: 1.0.2
